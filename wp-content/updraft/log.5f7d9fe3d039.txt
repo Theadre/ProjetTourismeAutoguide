@@ -1,0 +1,417 @@
+0000.001 (0) Opened log file at time: Mon, 30 Mar 2020 10:47:54 +0000 on https://3tc04dw02.hosting.unilim.fr/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.15-0ubuntu0.18.04.2 (apache2handler, Linux 3tc04dw02 4.4.0-170-generic #199-Ubuntu SMP Thu Nov 14 01:45:04 UTC 2019 x86_64) MySQL: 10.1.38-MariaDB-0ubuntu0.18.04.1 WPLANG: fr_FR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 2M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 435229.1 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: twicedaily) Backup DB:  (schedule: twicedaily)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.011 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1585556834, seconds_ago=8440)
+0000.015 (0) Set semaphore last lock (fd) time to 2020-03-30 10:47:54
+0000.016 (0) Semaphore lock (fd) complete
+0000.021 (0) Backup run: resumption=0, nonce=5f7d9fe3d039, file_nonce=5f7d9fe3d039 begun at=1585565274 (0s ago), job type=backup
+0000.025 (0) Scheduling a resumption (1) after 300 seconds (1585565574) in case this run gets aborted
+0000.028 (0) Checking if we have a zip executable available
+0000.030 (0) Testing: /usr/bin/zip
+0000.040 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.042 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.046 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.049 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.060 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.063 (0) Working binary zip found: /usr/bin/zip
+0000.066 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.067 (0) Creation of backups of directories: beginning
+0000.074 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.476 (0) Total entities for the zip file: 557 directories, 3423 files (0 skipped as non-modified), 59.2 MB
+0003.479 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.531 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: size is now: 0.10 MB
+0003.567 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 100 files added (on-disk size: 123.2 KB)
+0003.607 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 200 files added (on-disk size: 123.2 KB)
+0003.647 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 300 files added (on-disk size: 123.2 KB)
+0003.685 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 400 files added (on-disk size: 123.2 KB)
+0003.726 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 500 files added (on-disk size: 123.2 KB)
+0003.729 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 3423 files batched, 501 (502) added so far); re-opening (prior size: 123.2 KB)
+0008.239 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: size is now: 1.50 MB
+0008.296 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 600 files added (on-disk size: 1572.6 KB)
+0008.337 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 700 files added (on-disk size: 1572.6 KB)
+0008.379 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 800 files added (on-disk size: 1572.6 KB)
+0008.417 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 900 files added (on-disk size: 1572.6 KB)
+0008.455 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1000 files added (on-disk size: 1572.6 KB)
+0008.458 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 3423 files batched, 501 (1003) added so far); re-opening (prior size: 1572.6 KB)
+0011.650 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: size is now: 2.30 MB
+0011.690 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1100 files added (on-disk size: 2384.9 KB)
+0011.727 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1200 files added (on-disk size: 2384.9 KB)
+0011.770 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1300 files added (on-disk size: 2384.9 KB)
+0011.818 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1400 files added (on-disk size: 2384.9 KB)
+0011.857 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1500 files added (on-disk size: 2384.9 KB)
+0011.860 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.9 MB, 3423 files batched, 501 (1504) added so far); re-opening (prior size: 2384.9 KB)
+0019.024 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: size is now: 8.20 MB
+0019.067 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1600 files added (on-disk size: 8411 KB)
+0019.102 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1700 files added (on-disk size: 8411 KB)
+0019.135 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1800 files added (on-disk size: 8411 KB)
+0019.174 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 1900 files added (on-disk size: 8411 KB)
+0019.214 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2000 files added (on-disk size: 8411 KB)
+0019.217 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.8 MB, 3423 files batched, 501 (2005) added so far); re-opening (prior size: 8411 KB)
+0025.472 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: size is now: 17.50 MB
+0025.511 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2100 files added (on-disk size: 17905.3 KB)
+0025.552 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2200 files added (on-disk size: 17905.3 KB)
+0025.591 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2300 files added (on-disk size: 17905.3 KB)
+0025.635 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2400 files added (on-disk size: 17905.3 KB)
+0025.682 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2500 files added (on-disk size: 17905.3 KB)
+0025.686 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 3423 files batched, 501 (2506) added so far); re-opening (prior size: 17905.3 KB)
+0031.651 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2600 files added (on-disk size: 19575.5 KB)
+0031.691 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2700 files added (on-disk size: 19575.5 KB)
+0031.730 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2800 files added (on-disk size: 19575.5 KB)
+0031.768 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 2900 files added (on-disk size: 19575.5 KB)
+0031.802 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 3000 files added (on-disk size: 19575.5 KB)
+0031.806 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 3423 files batched, 501 (3007) added so far); re-opening (prior size: 19575.5 KB)
+0036.686 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 3100 files added (on-disk size: 22196.8 KB)
+0036.722 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 3200 files added (on-disk size: 22196.8 KB)
+0036.760 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 3300 files added (on-disk size: 22196.8 KB)
+0036.802 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip.tmp: 3400 files added (on-disk size: 22196.8 KB)
+0040.906 (0) Created plugins zip (0) - 23554.1 KB in 40.8 s (576.9 KB/s) (sha1: 15d94fa02838022d8c368397c43b171971a15520, sha256: 7be10f73e07f5df336552f541fdb3f23cc42a704e45e5582353ffbb20abe49ce)
+0040.913 (0) Beginning creation of dump of themes (split every: 400 MB)
+0041.343 (0) Total entities for the zip file: 120 directories, 736 files (0 skipped as non-modified), 12.2 MB
+0041.368 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0041.391 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0041.418 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0041.444 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0041.470 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0041.472 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 736 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0045.706 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: size is now: 3.40 MB
+0045.747 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: 600 files added (on-disk size: 3449 KB)
+0045.780 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: 700 files added (on-disk size: 3449 KB)
+0047.321 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip.tmp: size is now: 4.30 MB
+0047.423 (0) Created themes zip (0) - 4361.3 KB in 6.5 s (670.7 KB/s) (sha1: 4556896ace3ea88fde162ff268beb1ff51e723d9, sha256: d6ecf9e64877fe5a51a6a555485fa1401278ea1fe2a0ac0b2419f6f4fe2d8e56)
+0047.434 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0047.435 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content/uploads
+0047.437 (0) finding files: redux: adding to list (1)
+0047.438 (0) finding files: 2020: adding to list (2)
+0047.439 (0) finding files: wpdeepl: adding to list (3)
+0047.440 (0) finding files: elementor: adding to list (4)
+0047.442 (0) finding files: backup: skipping: excluded by options (glob)
+0047.443 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0047.745 (0) Total entities for the zip file: 7 directories, 642 files (0 skipped as non-modified), 58.7 MB
+0047.768 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0047.790 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0047.821 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0047.833 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 642 files batched, 346 (346) added so far); re-opening (prior size: 0 KB)
+0054.915 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: size is now: 25.10 MB
+0054.919 (0) A useful amount of data was added after this amount of zip processing: 8.3 s (normalised: 8.3 s, rate: 3102.5 KB/s)
+0054.939 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: 400 files added (on-disk size: 25664.2 KB)
+0054.973 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: 500 files added (on-disk size: 25664.2 KB)
+0054.984 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 642 files batched, 181 (527) added so far); re-opening (prior size: 25664.2 KB)
+0059.863 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: size is now: 50.10 MB
+0059.867 (0) A useful amount of data was added after this amount of zip processing: 5.2 s (normalised: 5.2 s, rate: 4932 KB/s)
+0059.870 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.2084510326385, normalised_time=5.190566286095, max_time=59.867940187454, data points known=1, old_max_bytes=26214400, new_max_bytes=181413978)
+0059.897 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip.tmp: 600 files added (on-disk size: 51346 KB)
+0063.897 (0) Created uploads zip (0) - 60148.8 KB in 16.5 s (3656.4 KB/s) (sha1: 1c712150e0f923f4696fce327ab7e6dedb04847d, sha256: 8a4729a954e66fb0fe2dd30d75f7baf75332e8452c2612100dd7f9add7d4d3ea)
+0063.905 (0) Beginning backup of other directories found in the content directory (index: 0)
+0063.906 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0063.907 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content
+0063.926 (0) finding files: uploads: skipping: this is the uploads directory
+0063.928 (0) finding files: updraft: skipping: this is the updraft directory
+0063.929 (0) finding files: index.php: adding to list (1)
+0063.930 (0) finding files: languages: adding to list (2)
+0063.931 (0) finding files: themes: skipping: this is the themes directory
+0063.932 (0) finding files: mu-plugins: adding to list (3)
+0063.934 (0) finding files: themes-old: adding to list (4)
+0063.935 (0) finding files: plugins: skipping: this is the plugins directory
+0063.936 (0) finding files: languages-old-old: adding to list (5)
+0063.937 (0) finding files: upgrade: skipping: excluded by options
+0063.938 (0) finding files: index.php-old: adding to list (6)
+0063.939 (0) finding files: index.php-old-old: adding to list (7)
+0063.940 (0) finding files: themes-old-old: adding to list (8)
+0063.942 (0) finding files: plugins-old-old: adding to list (9)
+0063.943 (0) finding files: uploads-old: adding to list (10)
+0063.944 (0) finding files: plugins-old: adding to list (11)
+0063.945 (0) finding files: uploads-old-old: adding to list (12)
+0063.946 (0) finding files: languages-old: adding to list (13)
+0064.156 (0) Total entities for the zip file: 16 directories, 311 files (0 skipped as non-modified), 28.2 MB
+0064.184 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0064.213 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0064.240 (0) Zip: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0070.017 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip.tmp: size is now: 7.20 MB
+0070.145 (0) Created others zip (0) - 7374.1 KB in 6.2 s (1190.5 KB/s) (sha1: 80b1d82de3ca5d4a7b7ba7aad59dfe0562c1f009, sha256: 242157ded1791356675e183dfb889d2b68c69d98f785af8511e7f4452dc94d90)
+0070.156 (0) Saving backup status to database (elements: 8)
+0070.160 (0) Beginning creation of database dump (WordPress DB)
+0070.181 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0070.195 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_3x3bxj_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1280 bytes total)
+0070.240 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0070.250 (0) Table wp_3x3bxj_options: Total expected rows (approximate): 375
+0070.283 (0) Table wp_3x3bxj_options: Total rows added: 381 in 0.03 seconds
+0070.288 (0) Table wp_3x3bxj_options: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_options.table.gz - 100.6 KB)
+0070.294 (0) Table wp_3x3bxj_users: Total expected rows (approximate): 3
+0070.298 (0) Table wp_3x3bxj_users: Total rows added: 3 in 0.00 seconds
+0070.302 (0) Table wp_3x3bxj_users: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_users.table.gz - 0.8 KB)
+0070.307 (0) Table wp_3x3bxj_usermeta: Total expected rows (approximate): 113
+0070.310 (0) Table wp_3x3bxj_usermeta: Total rows added: 114 in 0.00 seconds
+0070.312 (0) Table wp_3x3bxj_usermeta: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_usermeta.table.gz - 2.6 KB)
+0070.318 (0) Table wp_3x3bxj_commentmeta: Total expected rows (approximate): 0
+0070.320 (0) Table wp_3x3bxj_commentmeta: Total rows added: 0 in 0.00 seconds
+0070.322 (0) Table wp_3x3bxj_commentmeta: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_commentmeta.table.gz - 0.4 KB)
+0070.328 (0) Table wp_3x3bxj_comments: Total expected rows (approximate): 0
+0070.330 (0) Table wp_3x3bxj_comments: Total rows added: 0 in 0.00 seconds
+0070.331 (0) Table wp_3x3bxj_comments: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_comments.table.gz - 0.5 KB)
+0070.337 (0) Table wp_3x3bxj_links: Total expected rows (approximate): 0
+0070.339 (0) Table wp_3x3bxj_links: Total rows added: 0 in 0.00 seconds
+0070.341 (0) Table wp_3x3bxj_links: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_links.table.gz - 0.4 KB)
+0070.347 (0) Table wp_3x3bxj_postmeta: Total expected rows (approximate): 1101
+0070.368 (0) Table wp_3x3bxj_postmeta: Total rows added: 1217 in 0.02 seconds
+0070.371 (0) Table wp_3x3bxj_postmeta: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_postmeta.table.gz - 48.1 KB)
+0070.377 (0) Table wp_3x3bxj_posts: Total expected rows (approximate): 932
+0071.854 (0) Table wp_3x3bxj_posts: Total rows added: 955 in 1.48 seconds
+0071.871 (0) Table wp_3x3bxj_posts: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_posts.table.gz - 3009 KB)
+0071.888 (0) Table wp_3x3bxj_term_relationships: Total expected rows (approximate): 54
+0071.890 (0) Table wp_3x3bxj_term_relationships: Total rows added: 54 in 0.00 seconds
+0071.893 (0) Table wp_3x3bxj_term_relationships: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_term_relationships.table.gz - 0.5 KB)
+0071.898 (0) Table wp_3x3bxj_term_taxonomy: Total expected rows (approximate): 14
+0071.900 (0) Table wp_3x3bxj_term_taxonomy: Total rows added: 14 in 0.00 seconds
+0071.903 (0) Table wp_3x3bxj_term_taxonomy: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_term_taxonomy.table.gz - 0.6 KB)
+0071.946 (0) Table wp_3x3bxj_termmeta: Total expected rows (approximate): 11
+0071.949 (0) Table wp_3x3bxj_termmeta: Total rows added: 11 in 0.00 seconds
+0071.951 (0) Table wp_3x3bxj_termmeta: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_termmeta.table.gz - 0.5 KB)
+0071.959 (0) Table wp_3x3bxj_terms: Total expected rows (approximate): 14
+0071.962 (0) Table wp_3x3bxj_terms: Total rows added: 14 in 0.00 seconds
+0071.965 (0) Table wp_3x3bxj_terms: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_terms.table.gz - 0.6 KB)
+0071.971 (0) Table wp_3x3bxj_mail_bank: Total expected rows (approximate): 6
+0071.974 (0) Table wp_3x3bxj_mail_bank: Total rows added: 6 in 0.00 seconds
+0071.976 (0) Table wp_3x3bxj_mail_bank: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_mail_bank.table.gz - 0.4 KB)
+0071.983 (0) Table wp_3x3bxj_mail_bank_logs: Total expected rows (approximate): 27
+0071.989 (0) Table wp_3x3bxj_mail_bank_logs: Total rows added: 27 in 0.00 seconds
+0071.992 (0) Table wp_3x3bxj_mail_bank_logs: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_mail_bank_logs.table.gz - 14.7 KB)
+0071.999 (0) Table wp_3x3bxj_mail_bank_meta: Total expected rows (approximate): 4
+0072.002 (0) Table wp_3x3bxj_mail_bank_meta: Total rows added: 4 in 0.00 seconds
+0072.004 (0) Table wp_3x3bxj_mail_bank_meta: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_mail_bank_meta.table.gz - 1.2 KB)
+0072.011 (0) Table wp_3x3bxj_smush_dir_images: Total expected rows (approximate): 0
+0072.014 (0) Table wp_3x3bxj_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0072.016 (0) Table wp_3x3bxj_smush_dir_images: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_smush_dir_images.table.gz - 0.4 KB)
+0072.072 (0) Table wp_3x3bxj_trp_dictionary_fr_fr_en_gb: Total expected rows (approximate): 17
+0072.075 (0) Table wp_3x3bxj_trp_dictionary_fr_fr_en_gb: Total rows added: 17 in 0.00 seconds
+0072.078 (0) Table wp_3x3bxj_trp_dictionary_fr_fr_en_gb: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_dictionary_fr_fr_en_gb.table.gz - 0.7 KB)
+0072.084 (0) Table wp_3x3bxj_trp_gettext_en_gb: Total expected rows (approximate): 3
+0072.086 (0) Table wp_3x3bxj_trp_gettext_en_gb: Total rows added: 3 in 0.00 seconds
+0072.087 (0) Table wp_3x3bxj_trp_gettext_en_gb: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_gettext_en_gb.table.gz - 0.5 KB)
+0072.093 (0) Table wp_3x3bxj_trp_gettext_fr_fr: Total expected rows (approximate): 146
+0072.096 (0) Table wp_3x3bxj_trp_gettext_fr_fr: Total rows added: 146 in 0.00 seconds
+0072.098 (0) Table wp_3x3bxj_trp_gettext_fr_fr: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_gettext_fr_fr.table.gz - 4.4 KB)
+0072.104 (0) Table wp_3x3bxj_trp_original_meta: Total expected rows (approximate): 0
+0072.106 (0) Table wp_3x3bxj_trp_original_meta: Total rows added: 0 in 0.00 seconds
+0072.108 (0) Table wp_3x3bxj_trp_original_meta: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_original_meta.table.gz - 0.4 KB)
+0072.114 (0) Table wp_3x3bxj_trp_original_strings: Total expected rows (approximate): 17
+0072.116 (0) Table wp_3x3bxj_trp_original_strings: Total rows added: 17 in 0.00 seconds
+0072.118 (0) Table wp_3x3bxj_trp_original_strings: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_original_strings.table.gz - 0.6 KB)
+0072.123 (0) Table wp_3x3bxj_wpmm_subscribers: Total expected rows (approximate): 0
+0072.125 (0) Table wp_3x3bxj_wpmm_subscribers: Total rows added: 0 in 0.00 seconds
+0072.127 (0) Table wp_3x3bxj_wpmm_subscribers: finishing file (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_wpmm_subscribers.table.gz - 0.3 KB)
+0072.132 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_options.table.gz (1/22): adding to final database dump
+0072.157 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_users.table.gz (2/22): adding to final database dump
+0072.160 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_usermeta.table.gz (3/22): adding to final database dump
+0072.162 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_commentmeta.table.gz (4/22): adding to final database dump
+0072.164 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_comments.table.gz (5/22): adding to final database dump
+0072.166 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_links.table.gz (6/22): adding to final database dump
+0072.168 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_postmeta.table.gz (7/22): adding to final database dump
+0072.184 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_posts.table.gz (8/22): adding to final database dump
+0073.778 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_term_relationships.table.gz (9/22): adding to final database dump
+0073.842 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_term_taxonomy.table.gz (10/22): adding to final database dump
+0073.844 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_termmeta.table.gz (11/22): adding to final database dump
+0073.847 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_terms.table.gz (12/22): adding to final database dump
+0073.849 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_mail_bank.table.gz (13/22): adding to final database dump
+0073.851 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_mail_bank_logs.table.gz (14/22): adding to final database dump
+0073.857 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_mail_bank_meta.table.gz (15/22): adding to final database dump
+0073.859 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_smush_dir_images.table.gz (16/22): adding to final database dump
+0073.862 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_dictionary_fr_fr_en_gb.table.gz (17/22): adding to final database dump
+0073.864 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_gettext_en_gb.table.gz (18/22): adding to final database dump
+0073.866 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_gettext_fr_fr.table.gz (19/22): adding to final database dump
+0073.868 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_original_meta.table.gz (20/22): adding to final database dump
+0073.870 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_trp_original_strings.table.gz (21/22): adding to final database dump
+0073.872 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db-table-wp_3x3bxj_wpmm_subscribers.table.gz (22/22): adding to final database dump
+0073.897 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db.gz: finished writing out complete database file (3160 KB)
+0074.053 (0) Total database tables backed up: 22 (backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db.gz, size: 3260019, sha1: 383fafcf150ed75f1939947b4455f10ba74bad6d, sha256: 645a28630da09c6a8f8ed32ff2cf6e9c63357f21ea9c44d644561d333de272dd)
+0074.061 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0074.062 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0074.063 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0074.065 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip: others: This file has not yet been successfully uploaded: will queue
+0074.066 (0) backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db.gz: db: This file has not yet been successfully uploaded: will queue
+0074.067 (0) Saving backup history. Total backup size: 96.3 MB
+0074.071 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0074.078 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0074.081 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ad070ce812c849ac5c87dd823ce51deb)
+0078.145 (0) Google Drive: quota usage: used=265.7 MB, total=15360 MB, available=15094.3 MB
+0078.147 (0) Google Drive: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip: Attempting to upload to Google Drive (into folder id: 1CzHTU_YGxUJyC8Z-chMPwb6kVswQf8tH)
+0078.921 (0) Googledrive chunked upload: 4.3 % uploaded (1048576)
+0079.344 (0) Googledrive chunked upload: 8.7 % uploaded (2097152)
+0079.718 (0) Googledrive chunked upload: 13 % uploaded (3145728)
+0080.086 (0) Googledrive chunked upload: 17.4 % uploaded (4194304)
+0080.487 (0) Googledrive chunked upload: 21.7 % uploaded (5242880)
+0080.865 (0) Googledrive chunked upload: 26.1 % uploaded (6291456)
+0081.415 (0) Googledrive chunked upload: 30.4 % uploaded (7340032)
+0081.883 (0) Googledrive chunked upload: 34.8 % uploaded (8388608)
+0082.362 (0) Googledrive chunked upload: 39.1 % uploaded (9437184)
+0082.843 (0) Googledrive chunked upload: 43.5 % uploaded (10485760)
+0083.298 (0) Googledrive chunked upload: 47.8 % uploaded (11534336)
+0083.728 (0) Googledrive chunked upload: 52.2 % uploaded (12582912)
+0084.107 (0) Googledrive chunked upload: 56.5 % uploaded (13631488)
+0084.617 (0) Googledrive chunked upload: 60.9 % uploaded (14680064)
+0085.150 (0) Googledrive chunked upload: 65.2 % uploaded (15728640)
+0085.563 (0) Googledrive chunked upload: 69.6 % uploaded (16777216)
+0085.960 (0) Googledrive chunked upload: 73.9 % uploaded (17825792)
+0086.389 (0) Googledrive chunked upload: 78.3 % uploaded (18874368)
+0086.767 (0) Googledrive chunked upload: 82.6 % uploaded (19922944)
+0087.187 (0) Googledrive chunked upload: 86.9 % uploaded (20971520)
+0087.541 (0) Googledrive chunked upload: 91.3 % uploaded (22020096)
+0087.911 (0) Googledrive chunked upload: 95.6 % uploaded (23068672)
+0088.349 (0) Googledrive chunked upload: 100 % uploaded (24117248)
+0089.641 (0) Googledrive chunked upload: 100 % uploaded (24117248)
+0089.645 (0) Google Drive: OK: Archive backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip uploaded in 11.5 seconds
+0089.646 (0) Recording as successfully uploaded: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip
+0089.656 (0) Deleting local file: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-plugins.zip: OK
+0089.947 (0) Google Drive: quota usage: used=288.7 MB, total=15360 MB, available=15071.3 MB
+0089.949 (0) Google Drive: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip: Attempting to upload to Google Drive (into folder id: 1CzHTU_YGxUJyC8Z-chMPwb6kVswQf8tH)
+0090.678 (0) Googledrive chunked upload: 23.5 % uploaded (1048576)
+0091.037 (0) Googledrive chunked upload: 47 % uploaded (2097152)
+0091.529 (0) Googledrive chunked upload: 70.4 % uploaded (3145728)
+0092.312 (0) Googledrive chunked upload: 93.9 % uploaded (4194304)
+0093.586 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0093.591 (0) Google Drive: OK: Archive backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip uploaded in 3.64 seconds
+0093.593 (0) Recording as successfully uploaded: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip
+0093.596 (0) Deleting local file: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-themes.zip: OK
+0093.978 (0) Google Drive: quota usage: used=292.9 MB, total=15360 MB, available=15067.1 MB
+0093.981 (0) Google Drive: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip: Attempting to upload to Google Drive (into folder id: 1CzHTU_YGxUJyC8Z-chMPwb6kVswQf8tH)
+0094.711 (0) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0095.072 (0) Googledrive chunked upload: 3.4 % uploaded (2097152)
+0095.493 (0) Googledrive chunked upload: 5.1 % uploaded (3145728)
+0095.857 (0) Googledrive chunked upload: 6.8 % uploaded (4194304)
+0096.246 (0) Googledrive chunked upload: 8.5 % uploaded (5242880)
+0096.720 (0) Googledrive chunked upload: 10.2 % uploaded (6291456)
+0097.214 (0) Googledrive chunked upload: 11.9 % uploaded (7340032)
+0097.594 (0) Googledrive chunked upload: 13.6 % uploaded (8388608)
+0098.041 (0) Googledrive chunked upload: 15.3 % uploaded (9437184)
+0098.453 (0) Googledrive chunked upload: 17 % uploaded (10485760)
+0098.818 (0) Googledrive chunked upload: 18.7 % uploaded (11534336)
+0099.173 (0) Googledrive chunked upload: 20.4 % uploaded (12582912)
+0099.531 (0) Googledrive chunked upload: 22.1 % uploaded (13631488)
+0099.933 (0) Googledrive chunked upload: 23.8 % uploaded (14680064)
+0100.304 (0) Googledrive chunked upload: 25.5 % uploaded (15728640)
+0100.664 (0) Googledrive chunked upload: 27.2 % uploaded (16777216)
+0101.024 (0) Googledrive chunked upload: 28.9 % uploaded (17825792)
+0101.381 (0) Googledrive chunked upload: 30.6 % uploaded (18874368)
+0101.759 (0) Googledrive chunked upload: 32.3 % uploaded (19922944)
+0102.216 (0) Googledrive chunked upload: 34 % uploaded (20971520)
+0102.629 (0) Googledrive chunked upload: 35.8 % uploaded (22020096)
+0103.035 (0) Googledrive chunked upload: 37.5 % uploaded (23068672)
+0103.409 (0) Googledrive chunked upload: 39.2 % uploaded (24117248)
+0103.807 (0) Googledrive chunked upload: 40.9 % uploaded (25165824)
+0104.215 (0) Googledrive chunked upload: 42.6 % uploaded (26214400)
+0104.601 (0) Googledrive chunked upload: 44.3 % uploaded (27262976)
+0105.002 (0) Googledrive chunked upload: 46 % uploaded (28311552)
+0105.363 (0) Googledrive chunked upload: 47.7 % uploaded (29360128)
+0105.754 (0) Googledrive chunked upload: 49.4 % uploaded (30408704)
+0106.118 (0) Googledrive chunked upload: 51.1 % uploaded (31457280)
+0106.469 (0) Googledrive chunked upload: 52.8 % uploaded (32505856)
+0106.841 (0) Googledrive chunked upload: 54.5 % uploaded (33554432)
+0107.234 (0) Googledrive chunked upload: 56.2 % uploaded (34603008)
+0107.633 (0) Googledrive chunked upload: 57.9 % uploaded (35651584)
+0108.009 (0) Googledrive chunked upload: 59.6 % uploaded (36700160)
+0108.387 (0) Googledrive chunked upload: 61.3 % uploaded (37748736)
+0108.748 (0) Googledrive chunked upload: 63 % uploaded (38797312)
+0109.125 (0) Googledrive chunked upload: 64.7 % uploaded (39845888)
+0109.529 (0) Googledrive chunked upload: 66.4 % uploaded (40894464)
+0109.928 (0) Googledrive chunked upload: 68.1 % uploaded (41943040)
+0110.293 (0) Googledrive chunked upload: 69.8 % uploaded (42991616)
+0110.690 (0) Googledrive chunked upload: 71.5 % uploaded (44040192)
+0111.092 (0) Googledrive chunked upload: 73.2 % uploaded (45088768)
+0111.467 (0) Googledrive chunked upload: 74.9 % uploaded (46137344)
+0111.835 (0) Googledrive chunked upload: 76.6 % uploaded (47185920)
+0112.300 (0) Googledrive chunked upload: 78.3 % uploaded (48234496)
+0112.691 (0) Googledrive chunked upload: 80 % uploaded (49283072)
+0113.159 (0) Googledrive chunked upload: 81.7 % uploaded (50331648)
+0113.549 (0) Googledrive chunked upload: 83.4 % uploaded (51380224)
+0113.947 (0) Googledrive chunked upload: 85.1 % uploaded (52428800)
+0114.371 (0) Googledrive chunked upload: 86.8 % uploaded (53477376)
+0114.730 (0) Googledrive chunked upload: 88.5 % uploaded (54525952)
+0115.084 (0) Googledrive chunked upload: 90.2 % uploaded (55574528)
+0115.454 (0) Googledrive chunked upload: 91.9 % uploaded (56623104)
+0115.806 (0) Googledrive chunked upload: 93.6 % uploaded (57671680)
+0116.170 (0) Googledrive chunked upload: 95.3 % uploaded (58720256)
+0116.513 (0) Googledrive chunked upload: 97 % uploaded (59768832)
+0116.971 (0) Googledrive chunked upload: 98.7 % uploaded (60817408)
+0118.161 (0) Googledrive chunked upload: 100 % uploaded (60817408)
+0118.168 (0) Google Drive: OK: Archive backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip uploaded in 24.19 seconds
+0118.170 (0) Recording as successfully uploaded: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip
+0118.180 (0) Deleting local file: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-uploads.zip: OK
+0118.504 (0) Google Drive: quota usage: used=351.7 MB, total=15360 MB, available=15008.3 MB
+0118.506 (0) Google Drive: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip: Attempting to upload to Google Drive (into folder id: 1CzHTU_YGxUJyC8Z-chMPwb6kVswQf8tH)
+0119.173 (0) Googledrive chunked upload: 13.9 % uploaded (1048576)
+0119.661 (0) Googledrive chunked upload: 27.8 % uploaded (2097152)
+0120.038 (0) Googledrive chunked upload: 41.7 % uploaded (3145728)
+0120.415 (0) Googledrive chunked upload: 55.5 % uploaded (4194304)
+0120.799 (0) Googledrive chunked upload: 69.4 % uploaded (5242880)
+0121.295 (0) Googledrive chunked upload: 83.3 % uploaded (6291456)
+0121.768 (0) Googledrive chunked upload: 97.2 % uploaded (7340032)
+0122.615 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0122.619 (0) Google Drive: OK: Archive backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip uploaded in 4.11 seconds
+0122.620 (0) Recording as successfully uploaded: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip
+0122.627 (0) Deleting local file: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-others.zip: OK
+0122.961 (0) Google Drive: quota usage: used=358.9 MB, total=15360 MB, available=15001.1 MB
+0122.963 (0) Google Drive: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db.gz: Attempting to upload to Google Drive (into folder id: 1CzHTU_YGxUJyC8Z-chMPwb6kVswQf8tH)
+0123.638 (0) Googledrive chunked upload: 32.2 % uploaded (1048576)
+0124.008 (0) Googledrive chunked upload: 64.3 % uploaded (2097152)
+0124.381 (0) Googledrive chunked upload: 96.5 % uploaded (3145728)
+0125.423 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0125.433 (0) Google Drive: OK: Archive backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db.gz uploaded in 2.47 seconds
+0125.436 (0) Recording as successfully uploaded: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db.gz
+0125.441 (0) Deleting local file: backup_2020-03-30-1247_Tourisme_autoguid_5f7d9fe3d039-db.gz: OK
+0125.446 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0125.448 (0) Number of backup sets in history: 4; groups (db): 1
+0125.449 (0) Examining (for databases) backup set with group_id=0, nonce=5f7d9fe3d039, datestamp=1585565274 (Mar 30 2020 10:47:54)
+0125.451 (0) This backup set is the backup set just made, so will not be deleted.
+0125.451 (0) Examining (for databases) backup set with group_id=0, nonce=625199e3fb23, datestamp=1585556834 (Mar 30 2020 08:27:14)
+0125.451 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0125.452 (0) Examining (for databases) backup set with group_id=0, nonce=dc7a0940d6b4, datestamp=1585512831 (Mar 29 2020 20:13:51)
+0125.452 (0) 1585512831: db: this set includes a database (backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-db.gz); db count is now 2
+0125.452 (0) 1585512831: db: over retain limit (2); will delete this database
+0125.452 (0) Delete file: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-db.gz, service=googledrive
+0126.699 (0) Google Drive: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-db.gz: Deletion successful
+0126.704 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0126.706 (0) Examining (for databases) backup set with group_id=0, nonce=9a154428c2c5, datestamp=1581798192 (Feb 15 2020 20:23:12)
+0126.706 (0) This backup set (1581798192) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0126.706 (0) Number of backup sets in history: 4; groups (files): 1
+0126.707 (0) Examining (for files) backup set with nonce=5f7d9fe3d039, datestamp=1585565274 (Mar 30 2020 10:47:54)
+0126.707 (0) This backup set is the backup set just made, so will not be deleted.
+0126.709 (0) This backup set is the backup set just made, so will not be deleted.
+0126.709 (0) This backup set is the backup set just made, so will not be deleted.
+0126.709 (0) This backup set is the backup set just made, so will not be deleted.
+0126.709 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0126.710 (0) Examining (for files) backup set with nonce=625199e3fb23, datestamp=1585556834 (Mar 30 2020 08:27:14)
+0126.710 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0126.710 (0) Examining (for files) backup set with nonce=dc7a0940d6b4, datestamp=1585512831 (Mar 29 2020 20:13:51)
+0126.710 (0) plugins: over retain limit (2); will delete this file entity
+0126.710 (0) themes: over retain limit (2); will delete this file entity
+0126.710 (0) uploads: over retain limit (2); will delete this file entity
+0126.710 (0) others: over retain limit (2); will delete this file entity
+0126.710 (0) Delete file: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-plugins.zip, service=googledrive
+0126.712 (0) Delete file: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-themes.zip, service=googledrive
+0126.713 (0) Delete file: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-uploads.zip, service=googledrive
+0126.715 (0) Delete file: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-others.zip, service=googledrive
+0127.888 (0) Google Drive: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-others.zip: Deletion successful
+0128.436 (0) Google Drive: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-uploads.zip: Deletion successful
+0129.212 (0) Google Drive: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-themes.zip: Deletion successful
+0129.762 (0) Google Drive: backup_2020-03-29-2213_Tourisme_autoguid_dc7a0940d6b4-plugins.zip: Deletion successful
+0129.765 (0) This backup set is now empty; will remove from history
+0129.767 (0) Deleting log file (log.dc7a0940d6b4.txt)
+0129.769 (0) Examining (for files) backup set with nonce=9a154428c2c5, datestamp=1581798192 (Feb 15 2020 20:23:12)
+0129.770 (0) This backup set (1581798192) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0129.770 (0) This backup set (1581798192) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0129.770 (0) This backup set (1581798192) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0129.770 (0) This backup set (1581798192) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0129.770 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.771 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0129.777 (0) Resume backup (5f7d9fe3d039, 0): finish run
+0129.780 (0) Decremented the semaphore (fd) by 1
+0129.785 (0) Semaphore (fd) unlocked
+0129.786 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0129.791 (0) The backup apparently succeeded and is now complete
+0129.793 (0) Fetching RSS news feed
+0129.842 (0) Fetched RSS news feed; result is a: SimplePie
+0130.026 (0) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: jerem...
+0131.123 (0) La sauvegarde a réussie. Elle est maintenant terminée.

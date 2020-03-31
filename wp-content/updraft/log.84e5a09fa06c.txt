@@ -1,0 +1,29 @@
+0000.396 (0) Opened log file at time: Sat, 22 Feb 2020 08:10:40 +0000 on https://3tc04dw02.hosting.unilim.fr/wordpress
+0000.402 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.2.15-0ubuntu0.18.04.2 (apache2handler, Linux 3tc04dw02 4.4.0-170-generic #199-Ubuntu SMP Thu Nov 14 01:45:04 UTC 2019 x86_64) MySQL: 10.1.38-MariaDB-0ubuntu0.18.04.1 WPLANG: fr_FR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.7M | 14M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.414 (0) Free space on disk containing Updraft's temporary directory: 453886.9 MB
+0000.577 (0) Tasks: Backup files: 1 (schedule: twicedaily) Backup DB:  (schedule: twicedaily)
+0000.586 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.703 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1582149362, seconds_ago=209678)
+0000.721 (0) Set semaphore last lock (fd) time to 2020-02-22 08:10:40
+0000.723 (0) Semaphore lock (fd) complete
+0000.802 (0) Backup run: resumption=0, nonce=84e5a09fa06c, file_nonce=84e5a09fa06c begun at=1582359040 (1s ago), job type=backup
+0000.819 (0) Scheduling a resumption (1) after 300 seconds (1582359341) in case this run gets aborted
+0000.908 (0) Checking if we have a zip executable available
+0000.914 (0) Testing: /usr/bin/zip
+0001.007 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.071 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.076 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.080 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.083 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.182 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.205 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.377 (0) Working binary zip found: /usr/bin/zip
+0001.388 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.394 (0) Creation of backups of directories: beginning
+0001.579 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.688 (0) /var/www/html/wordpress/wp-content/plugins/updraftplus/vendor/phpseclib/phpseclib/phpseclib/Crypt/AES.php: unreadable file
+0004.512 (0) PHP event: code E_WARNING: mysqli_query(): MySQL server has gone away (line 2030, wp-includes/wp-db.php)
+0000.000 (1) Opened log file at time: Mon, 24 Feb 2020 13:54:24 +0000 on https://3tc04dw02.hosting.unilim.fr/wordpress
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.2.15-0ubuntu0.18.04.2 (apache2handler, Linux 3tc04dw02 4.4.0-170-generic #199-Ubuntu SMP Thu Nov 14 01:45:04 UTC 2019 x86_64) MySQL: 10.1.38-MariaDB-0ubuntu0.18.04.1 WPLANG: fr_FR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 14.7M | 16M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (1) Free space on disk containing Updraft's temporary directory: 453259.8 MB
+0000.007 (1) This backup task (84e5a09fa06c) is either complete or began over 2 days ago: ending (1582552464.0265, ) (existing jobdata keys: )
